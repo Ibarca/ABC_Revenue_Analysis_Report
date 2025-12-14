@@ -1,4 +1,4 @@
-# 📦 Data Analytics Portfolio (with Synthetic E-Commerce Data)
+# 📦 Data Analytics with SQL Portfolio (with Synthetic E-Commerce Data)
 
 This repository showcases a collection of **data analysis projects inspired by real-world e-commerce challenges** that I led or contributed to professionally.  
 To respect confidentiality and GDPR requirements, **all data used in these projects is fully synthetic**, but the **logic, methods, and business reasoning reflect real scenarios** from my work in category management, private-label management, and commercial analytics.
