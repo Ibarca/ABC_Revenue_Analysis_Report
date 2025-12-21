@@ -1,0 +1,41 @@
+supplier_id,supplier_country,sku_id,category,lead_time_days
+SUP_A,Germany,8,Hand Tools,23
+SUP_A,Germany,14,Power Tools,20
+SUP_A,Germany,24,Storage,17
+SUP_A,Germany,28,Power Tools,29
+SUP_A,Germany,29,Workshop Equipment,16
+SUP_A,Germany,34,Power Tools,30
+SUP_A,Germany,35,Power Tools,7
+SUP_A,Germany,40,Storage,23
+SUP_B,Czech Republic,3,Power Tools,14
+SUP_B,Czech Republic,5,Storage,33
+SUP_B,Czech Republic,10,Workshop Equipment,19
+SUP_B,Czech Republic,11,Hand Tools,12
+SUP_B,Czech Republic,13,Power Tools,26
+SUP_B,Czech Republic,16,Hand Tools,32
+SUP_B,Czech Republic,19,Power Tools,27
+SUP_B,Czech Republic,22,Hand Tools,20
+SUP_B,Czech Republic,27,Power Tools,17
+SUP_B,Czech Republic,36,Workshop Equipment,31
+SUP_C,Italy,2,Storage,14
+SUP_C,Italy,6,Hand Tools,15
+SUP_C,Italy,15,Storage,19
+SUP_C,Italy,18,Power Tools,21
+SUP_C,Italy,25,Storage,22
+SUP_C,Italy,26,Storage,9
+SUP_C,Italy,33,Workshop Equipment,27
+SUP_C,Italy,38,Storage,31
+SUP_D,Poland,1,Storage,12
+SUP_D,Poland,4,Power Tools,21
+SUP_D,Poland,12,Storage,26
+SUP_D,Poland,23,Workshop Equipment,24
+SUP_D,Poland,30,Hand Tools,27
+SUP_D,Poland,31,Power Tools,9
+SUP_D,Poland,32,Power Tools,16
+SUP_D,Poland,37,Hand Tools,14
+SUP_D,Poland,39,Power Tools,22
+SUP_E,Turkey,7,Storage,23
+SUP_E,Turkey,9,Workshop Equipment,33
+SUP_E,Turkey,17,Workshop Equipment,15
+SUP_E,Turkey,20,Workshop Equipment,19
+SUP_E,Turkey,21,Storage,23
