@@ -119,7 +119,11 @@ Corporate Google Workspace accounts allow the integration of Google Gemini direc
 
 - Complement ABC analysis with trend-focused dashboards.
 
-ABC analysis provides a strong snapshot of current performance and prioritization, but it does not capture trends, seasonality, or momentum over time. For decision-making that requires forward-looking insights, this report should be supplemented with in-depth dashboards (e.g. time-series analysis, demand evolution, stock risk trends, or forecast accuracy monitoring).
+ABC analysis provides a strong snapshot of current performance and prioritization, but it does not capture trends, seasonality, or momentum over time. For decision-making that requires forward-looking insights, this report should be supplemented with in-depth dashboards (e.g. time-series analysis, demand evolution, stock risk trends, or forecast accuracy monitoring
+
+- Adjust ABC thresholds in cases of high revenue concentration.
+  
+When revenue is highly concentrated in a small number of SKUs, standard ABC thresholds may not accurately reflect true business priorities. In such cases, testing alternative ABC ratios can provide a more balanced prioritization. High concentration also represents a structural risk: if one of these key SKUs is disrupted (supply, quality, pricing, or demand), overall revenue is disproportionately impacted. A more evenly distributed revenue mix is generally more resilient and reduces dependency risk.
 
 ---
 ## 📬 Contact
