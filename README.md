@@ -88,6 +88,16 @@ The model is intentionally flexible and can be extended with additional KPIs suc
 
 ---
 
+## Challenges
+
+One of the main challenges of this project was handling complex aggregations and business logic directly in SQL.
+Building SKU-level KPIs such as rolling 365-day sales, cumulative revenue contribution, and ABC classification required extensive use of Common Table Expressions (CTEs) and window functions to ensure correctness, readability, and maintainability.
+
+Running these calculations entirely in BigQuery SQL ensures that heavy data processing happens at the database level, which guarantees high scalability and performance.
+As a result, the connected Google Sheets report remains fast and responsive, even when working with thousands of SKUs and live data refreshes, making it suitable for daily operational use.
+
+---
+
 ## Data Flow Diagram
 
 <img width="1106" height="257" alt="Screenshot 2025-12-31 at 10 50 59" src="https://github.com/user-attachments/assets/0227ad89-e48b-4f52-a70b-8d953e52ab64" />
