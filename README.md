@@ -47,6 +47,14 @@ The query combines data from:
 
 All data is unified at **SKU level**.
 
+---
+
+## Data Flow Diagram
+
+<img width="1106" height="257" alt="Screenshot 2025-12-31 at 10 50 59" src="https://github.com/user-attachments/assets/0227ad89-e48b-4f52-a70b-8d953e52ab64" />
+
+---
+
 ## Key Metrics
 - Revenue & units sold (last 365 days)
 - ABC classification (cumulative revenue logic)
@@ -97,11 +105,6 @@ Running these calculations entirely in BigQuery SQL ensures that heavy data proc
 As a result, the connected Google Sheets report remains fast and responsive, even when working with thousands of SKUs and live data refreshes, making it suitable for daily operational use.
 
 ---
-
-## Data Flow Diagram
-
-<img width="1106" height="257" alt="Screenshot 2025-12-31 at 10 50 59" src="https://github.com/user-attachments/assets/0227ad89-e48b-4f52-a70b-8d953e52ab64" />
-
 
 ## 📬 Contact
 
