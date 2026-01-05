@@ -5,7 +5,7 @@ This project showcases a production-ready analytical dataset built entirely with
 
 The dataset consolidates multiple operational sources into a single source of truth at SKU level, designed to support prioritization, performance monitoring, and optimization decisions in e-commerce environments. SKU prioritization follows the Pareto (ABC) principle, allowing Category Managers to focus their efforts on the products that drive the majority of revenue impact.
 
-The underlying SQL query aggregates and enriches data from multiple operational domains — products, suppliers, margins, sales history, and inventory — and is directly connected to Google Sheets to generate an always-up-to-date report. All calculations are executed in SQL, ensuring that the Google Sheets layer remains fast, lightweight, and responsive, even with large assortments.
+The underlying SQL query aggregates and enriches data from multiple operational domains : products, suppliers, margins, sales history, and inventory, and is directly connected to Google Sheets to generate an always-up-to-date report. All calculations are executed in SQL, ensuring that the Google Sheets layer remains fast, lightweight, and responsive, even with large assortments. In order to achieve this, CTEs and window functions are used.
 
 This reporting framework has been implemented in two different companies, where it became the cornerstone for daily performance measurement within Category Management teams. The logic has been tested, refined, and validated in real business environments, supporting thousands of SKUs and evolving alongside operational needs.
 
