@@ -74,7 +74,7 @@ The layered design ensures scalability, clarity, and maintainability of the anal
 - ABC classification (cumulative revenue logic)
 - Revenue contribution per SKU
 - Average selling price
-- CM1 / CM2 / CM3 margins
+- CM1 / CM2 / CM3 margins for the last 365 days
 - Service level (stock availability over time)
 - Current stock on hand
 - Supplier, country & lead time
@@ -126,7 +126,7 @@ As a result, the connected Google Sheets report remains fast and responsive, eve
 ## Suggestions
 
 
-- AI-assisted reporting with Google Gemini.
+- AI-assisted report integration with Google Gemini.
   
 Corporate Google Workspace accounts allow the integration of Google Gemini directly into Google Sheets. This enables automated prompting and natural-language queries on top of the report, allowing users to quickly generate tracking summaries, ad-hoc insights, and management-ready reports without additional manual analysis.
 
