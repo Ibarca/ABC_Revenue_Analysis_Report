@@ -63,11 +63,11 @@ stockouts AS (
   SELECT
     sku_id AS sku,
     ROUND(
-      (365 - SUM(CASE WHEN stock_on_hand > 0 THEN 0 ELSE 1 END)) * 100 / 365,
-      2
+      (365 - SUM(CASE WHEN stock_on_hand > 0 THEN 0 ELSE 1 END))  / 365,
+      1
     ) AS service_level
   FROM `Project_01.Inventory_history`
-  WHERE date > '2023-12-31' --  For this project I am not using dynamic data, otherwise I would have used 'DATE > CURRENT_DATE() -365'  
+  WHERE date > '2023-12-31'
   GROUP BY sku_id
 ),
 
@@ -77,7 +77,7 @@ current_stock AS (
     sku_id AS sku,
     stock_on_hand
   FROM `Project_01.Inventory_history`
-  WHERE date = '2024-12-31' -- For this project I am not using dynamic data, otherwise I would have used 'DATE = CURRENT_DATE() -1'
+  WHERE date = '2024-12-31'
 )
 
 SELECT
@@ -91,7 +91,7 @@ SELECT
   stockouts.service_level,
   current_stock.stock_on_hand,
 
-  ROUND(SAFE_DIVIDE(current_stock.stock_on_hand * 365, abc.sales_365), 2) AS reach_days,
+  ROUND(SAFE_DIVIDE(current_stock.stock_on_hand * 365, abc.sales_365), 0) AS reach_days,
   pr.lead_time_days AS leadtime_days,
 
   profit.avg_selling_price,
