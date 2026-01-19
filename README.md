@@ -1,7 +1,7 @@
 # ABC Revenue Analysis & SKU Prioritization for Category Management (SQL + BigQuery + Google Sheets) with synthetic data
 
 ## Overview 
-This project showcases a production-ready analytical dataset built entirely with BigQuery SQL and integrated with Google Sheets to enable automated, scalable reporting for Category Management teams, using synthetic data.
+This project showcases a production-ready analytical dataset built entirely with BigQuery SQL and integrated with Google Sheets to enable automated, scalable reporting for Category Management teams, using synthetic data. The report can be found [here](https://docs.google.com/spreadsheets/d/1dP4wzOw9nYpfIo4zUBvQJmEtER1iKRP6GJyMMoqcCr0/edit?gid=1324343453#gid=1324343453)
 
 The dataset consolidates multiple operational sources into a single source of truth at SKU level, designed to support prioritization, performance monitoring, and optimization decisions in e-commerce environments. SKU prioritization follows the Pareto (ABC) principle, allowing Category Managers to focus their efforts on the products that drive the majority of revenue impact.
 
@@ -146,7 +146,17 @@ In a production environment with live data, all time-based filters (sales period
 ---
 ## 📬 Contact
 
-If you want to discuss my work, analytics methods, or e-commerce projects:
+If you’d like to discuss this project, analytics methodologies, or potential collaboration opportunities, please feel free to reach out, preferably by email:
 
-- **LinkedIn:** [https://www.linkedin.com/in/yago-b-35582644/]
-- **Email:** ibarreirocanda@gmail.com 
+Email: ibarreirocanda@gmail.com
+LinkedIn: https://www.linkedin.com/in/yago-b-35582644/
+
+---
+## 💖 Support & Donations
+
+If you find this project useful and would like to support its continued development, you can do so via a donation.
+Your support helps me invest more time in building, maintaining, and extending data analytics projects like this one.
+
+Donations are entirely optional, but always appreciated 🙏
+
+☕ Buy Me a Coffee: https://buymeacoffee.com/ibarca
