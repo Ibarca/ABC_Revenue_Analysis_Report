@@ -125,7 +125,7 @@ As a result, the connected Google Sheets report remains fast and responsive, eve
 
 ## Results & Key Findings
 
-[The ABC analysis](https://docs.google.com/spreadsheets/d/1dP4wzOw9nYpfIo4zUBvQJmEtER1iKRP6GJyMMoqcCr0/edit?gid=1324343453#gid=13243434 highlights a strong revenue concentration across a limited number of SKUs, confirming the relevance of prioritization in inventory planning and projection.
+[The ABC analysis](https://docs.google.com/spreadsheets/d/1dP4wzOw9nYpfIo4zUBvQJmEtER1iKRP6GJyMMoqcCr0/edit?gid=1324343453#gid=13243434) highlights a strong revenue concentration across a limited number of SKUs, confirming the relevance of prioritization in inventory planning and projection.
 
 Key findings
 
