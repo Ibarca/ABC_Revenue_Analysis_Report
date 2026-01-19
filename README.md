@@ -113,7 +113,7 @@ The model is intentionally flexible and can be extended with additional KPIs suc
 ## Challenges
 
 One of the main challenges of this project was handling complex aggregations and business logic directly in SQL.
-Building SKU-level KPIs such as rolling 365-day sales, cumulative revenue contribution, and ABC classification required extensive use of Common Table Expressions (CTEs) and window functions to ensure correctness, readability, and maintainability.
+In the live version of the report, building SKU-level KPIs such as rolling 365-day sales, cumulative revenue contribution, and ABC classification required extensive use of Common Table Expressions (CTEs) and window functions to ensure correctness, readability, and maintainability.
 
 Running these calculations entirely in SQL ensures that heavy data processing happens at the database level, which guarantees high scalability and performance, avoiding resource-consuming lookup formulas in the spreadsheet.
 As a result, the connected Google Sheets report remains fast and responsive, even when working with thousands of SKUs and live data refreshes, making it suitable for daily operational use.
