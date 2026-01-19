@@ -148,7 +148,7 @@ In a production environment with live data, all time-based filters (sales period
 
 If you’d like to discuss this project, analytics methodologies, or potential collaboration opportunities, please feel free to reach out, preferably by email:
 
-Email: ibarreirocanda@gmail.com
+Email: ibarreirocanda@gmail.com  
 LinkedIn: https://www.linkedin.com/in/yago-b-35582644/
 
 ---
