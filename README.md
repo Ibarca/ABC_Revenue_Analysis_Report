@@ -4,7 +4,7 @@
 This project showcases a production-ready analytical dataset built entirely with BigQuery SQL and integrated with Google Sheets to enable automated, scalable reporting for Category Management teams, using synthetic data. The goal is to identify high-impact SKUs using ABC analysis based on the last 365 days of sales to support inventory prioritization and supplier negotiations. In the following list you can find: 
  - [The report link](https://docs.google.com/spreadsheets/d/1dP4wzOw9nYpfIo4zUBvQJmEtER1iKRP6GJyMMoqcCr0/edit?gid=1324343453#gid=1324343453)
  - [Business insighs](https://github.com/Ibarca/ABC_Revenue_Analysis_Report/blob/af7ce6b651aaeaa1cf4c284e0bed30e80a92bc27/docs/findings)
- - [KPI_explanations](https://github.com/Ibarca/ABC_Revenue_Analysis_Report/blob/f11873acb0d43d979be047f1836579748260c09e/docs/fields_and_kpi_definitions.md)
+ - [KPI definitions](https://github.com/Ibarca/ABC_Revenue_Analysis_Report/blob/f11873acb0d43d979be047f1836579748260c09e/docs/fields_and_kpi_definitions.md)
  - [SQL code](https://github.com/Ibarca/ABC_Revenue_Analysis_Report/blob/f11873acb0d43d979be047f1836579748260c09e/docs/sql_query)
 
 ---
