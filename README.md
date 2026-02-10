@@ -1,7 +1,11 @@
 # ABC Revenue Analysis & SKU Prioritization for Category Management (SQL + BigQuery + Google Sheets) with synthetic data
 ------
 ## Overview 
-This project showcases a production-ready analytical dataset built entirely with BigQuery SQL and integrated with Google Sheets to enable automated, scalable reporting for Category Management teams, using synthetic data. The goal is to identify high-impact SKUs using ABC analysis based on the last 365 days of sales to support inventory prioritization and supplier negotiations. The report can be found [here](https://docs.google.com/spreadsheets/d/1dP4wzOw9nYpfIo4zUBvQJmEtER1iKRP6GJyMMoqcCr0/edit?gid=1324343453#gid=1324343453)
+This project showcases a production-ready analytical dataset built entirely with BigQuery SQL and integrated with Google Sheets to enable automated, scalable reporting for Category Management teams, using synthetic data. The goal is to identify high-impact SKUs using ABC analysis based on the last 365 days of sales to support inventory prioritization and supplier negotiations. In the following list you can find: 
+ - [The report link](https://docs.google.com/spreadsheets/d/1dP4wzOw9nYpfIo4zUBvQJmEtER1iKRP6GJyMMoqcCr0/edit?gid=1324343453#gid=1324343453)
+ - [Business insighs](https://github.com/Ibarca/ABC_Revenue_Analysis_Report/blob/af7ce6b651aaeaa1cf4c284e0bed30e80a92bc27/docs/findings)
+ - [KPI_explanations](https://github.com/Ibarca/ABC_Revenue_Analysis_Report/blob/f11873acb0d43d979be047f1836579748260c09e/docs/fields_and_kpi_definitions.md)
+ - [SQL code](https://github.com/Ibarca/ABC_Revenue_Analysis_Report/blob/f11873acb0d43d979be047f1836579748260c09e/docs/sql_query)
 
 ---
 ## Context
@@ -126,29 +130,6 @@ As a result, the connected Google Sheets report remains fast and responsive, eve
 
 <img width="502" height="400" alt="Screenshot 2026-01-05 at 14 19 35" src="https://github.com/user-attachments/assets/007fccfc-3322-47de-9ab5-a8113a9a0a99" />
 <img width="450" height="94" alt="Screenshot 2026-01-05 at 14 28 30" src="https://github.com/user-attachments/assets/a3005060-33fd-4708-b8a7-0f14f735d91b" />
-
----
-
-## Results & Key Findings
-
-[The ABC analysis](https://docs.google.com/spreadsheets/d/1dP4wzOw9nYpfIo4zUBvQJmEtER1iKRP6GJyMMoqcCr0/edit?gid=1324343453#gid=13243434) highlights a strong revenue concentration across a limited number of SKUs, confirming the relevance of prioritization in inventory planning and projection.
-
-Key findings
-
-The portfolio generates a total revenue of approximately 29.2M € over the analyzed period.
-
-- Class A SKUs make up just 17.5% of the assortment (7 SKUs) while generating 40% of total revenue (~€11.7M). These high-impact items are critical for service-level protection and inventory availability. As a top priority, product listing quality should be reviewed and, where needed, enhanced through improved visuals and content optimization.
-- Class B SKUs represent 27.5% of the assortment (11 SKUs) and contribute a further 40% of revenue (~€11.7M). These products require balanced replenishment strategies and close performance monitoring. In addition, reviewing and improving listing quality may help unlock further sales potential, as B-class SKUs often represent future top sellers.
-- Class C SKUs make up the majority of the assortment (55% or 22 SKUs) while contributing only 20% of revenue (~5.9M €), indicating long-tail behavior and higher overstock risk.
-- The analysis shows that all top-selling items, particularly the top five SKUs, are mature products, from 2020 or older. This indicates a need to expand the assortment with new product introductions. It is essential to engage with suppliers to review their latest catalogs, discuss current market trends and best sellers, and identify potential gaps in the existing assortment. This initiative should be treated as a high-priority project, as continued reliance on mature A-class products carries the risk of market saturation over time.
-- There are no major profitability issues across the assortment overall. However, the top-selling SKU (SKU 3) shows a below-average CM3 of 12%, driven by a relatively low CM1 of 31%. Given its high sales volume, this SKU represents a strong opportunity for supplier price renegotiation to improve overall margin performance.
-- The top-selling SKUs (1 and 13) are currently out of stock, resulting in significant lost revenue given their high sales importance. A root cause analysis is required to understand how this situation occurred. In parallel, upcoming inbound orders should be reviewed and, where possible, expedited to minimize further revenue impact. The same happens with the mid seller sku 6. No correlation between suppliers or categories has been found.
-- The top-selling SKU 33 shows a strong CM3 margin of 42%, indicating that purchasing prices were effectively negotiated in the past. This healthy margin provides sufficient budget flexibility to increase marketing investment and further scale sales.
-- The low-selling SKUs 11, 35, and 30 exhibit CM3 margins above 40%. However, increasing marketing spend may be ineffective if these products serve niche demand. A competitive benchmarking analysis should be conducted to assess potential overpricing. If confirmed, selectively reducing prices toward market levels could help stimulate demand while preserving healthy margins.
-
-As demonstrated, this report already provides sufficient insight to identify which initiatives should be pursued and in what order of priority at a glance. While certain areas such as replenishment and detailed inventory management require more granular data or dedicated dashboards, this report serves as a strong starting point. This is precisely what makes it effective, particularly in organizations where data literacy or data accessibility remains a challenge.
-  
-
 
 
 ---
